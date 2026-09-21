@@ -1,8 +1,6 @@
 const ledgers = {
   shanaya: [
-    { type: "Deposit", date: "Sep 14, 2026 · 4:30 PM", amount: 12.00 },
-    { type: "Deposit", date: "Sep 07, 2026 · 5:15 PM", amount: 8.50 },
-    { type: "Withdrawal", date: "Aug 30, 2026 · 11:00 AM", amount: -5.00 }
+    { type: "Deposit", date: "Sep 21, 2026 · 11:44 PM", amount: 1000.00 }
   ],
   vidar: [
     { type: "Deposit", date: "Sep 13, 2026 · 10:00 AM", amount: 10.00 },
