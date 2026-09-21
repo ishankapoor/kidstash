@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A cheerful savings tracker for Shanaya and Vidar.">
+  <title>Kid's Stash</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="hero">
+      <div class="coin coin-large" aria-hidden="true">$</div>
+      <div class="hero-copy">
+        <p class="eyebrow">Save it. Grow it. Enjoy it.</p>
+        <h1>Kid's <span>Stash</span></h1>
+        <p class="intro">A colorful little record of money coming in and going out.</p>
+      </div>
+      <div class="coin coin-small" aria-hidden="true">$</div>
+    </header>
+
+    <section class="ledger-grid" aria-label="Kids' money ledgers">
+      <article class="ledger-card ledger-card-coral">
+        <div class="ledger-heading">
+          <div class="avatar avatar-coral" aria-hidden="true">S</div>
+          <div>
+            <p class="ledger-label">My money</p>
+            <h2>Shanaya</h2>
+          </div>
+          <span class="stash-icon" aria-hidden="true">★</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <caption>Shanaya's deposits and withdrawals</caption>
+            <thead>
+              <tr>
+                <th scope="col">Type</th>
+                <th scope="col">Date &amp; time</th>
+                <th scope="col">Amount</th>
+              </tr>
+            </thead>
+            <tbody id="shanaya-ledger"></tbody>
+          </table>
+        </div>
+      </article>
+
+      <article class="ledger-card ledger-card-teal">
+        <div class="ledger-heading">
+          <div class="avatar avatar-teal" aria-hidden="true">V</div>
+          <div>
+            <p class="ledger-label">My money</p>
+            <h2>Vidar</h2>
+          </div>
+          <span class="stash-icon" aria-hidden="true">★</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <caption>Vidar's deposits and withdrawals</caption>
+            <thead>
+              <tr>
+                <th scope="col">Type</th>
+                <th scope="col">Date &amp; time</th>
+                <th scope="col">Amount</th>
+              </tr>
+            </thead>
+            <tbody id="vidar-ledger"></tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer-note"><span aria-hidden="true">$</span> Every little bit adds up! <span aria-hidden="true">$</span></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
