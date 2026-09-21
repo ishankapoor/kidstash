@@ -84,6 +84,7 @@ caption { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: r
 th { padding: 13px 4px 10px; color: #718493; font-size: .7rem; letter-spacing: .1em; text-align: left; text-transform: uppercase; }
 td { padding: 15px 4px; border-top: 1px solid var(--line); font-size: .9rem; font-weight: 700; }
 td:last-child { color: var(--green); font-size: 1rem; font-weight: 800; text-align: right; }
+.placeholder-row td { color: #9aaab0; font-size: 1.15rem; text-align: center; }
 .entry-type { display: inline-flex; align-items: center; gap: 7px; }
 .entry-type::before { display: inline-grid; width: 25px; height: 25px; place-items: center; border-radius: 50%; color: #fff; font-size: .85rem; content: "+"; background: var(--green); }
 .withdrawal .entry-type::before { content: "−"; background: var(--coral); }
